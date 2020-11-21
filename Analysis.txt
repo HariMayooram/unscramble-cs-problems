@@ -1,0 +1,43 @@
+Task 0:
+    Run-time analysis: O(1)
+    Explanation:
+        The code accesses the two lists 'texts' and 'calls' once each to access a single entry.
+
+Task 1:
+    Run-time analysis: O(m + n)
+    Explanation:
+        The two input parameters to the function 'recordList1' and 'recordList2' are iterated through
+        once each.
+
+Task 2:
+    Run-time analysis: O(m + n)
+    Explanation:
+        The loop iterates through all the calls 'm'. Then, the max function iterates through all the
+        'n' items in the dictionary.
+
+Task 3:
+    Method: bangalore_number
+    Run-time analysis: O(1)
+    Explanation:
+        The code returns runs a conditional statement which is executed only once.
+    
+    Method: find_codes
+    Run-time analysis: O(1)
+    Explanation:
+        The code does not iterate or run statement multiple times. This method only contains
+        conditional statements and assignment statements.
+    
+    Method: calls_from_bangalore_numbers
+    Run-time analysis: O(n)
+    Explanation:
+        The code in this method iterates through all the calls in the list 'calls'.
+    
+    Method: main
+    Run-time analysis: O(n log n)
+    Explanation:
+        The sort method in python has a worst case complexity of n log n. 
+
+Task 4:
+    Run-time analysis: O(m + n)
+    Explanation:
+        The method 'list_of_telemarketers' iterates through 'm' calls and 'n' texts.
